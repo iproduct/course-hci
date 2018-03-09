@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-lab",
+  "version": "1.0.0",
+  "description": "bootstrap lab",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iproduct/course-hci.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "layout",
+    "components",
+    "responsive"
+  ],
+  "author": "Trayan Iliev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iproduct/course-hci/issues"
+  },
+  "homepage": "https://github.com/iproduct/course-hci#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
