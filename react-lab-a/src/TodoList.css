@@ -1,0 +1,19 @@
+.TodoList-list {
+    list-style-type: none;
+}
+
+.TodoList-list li {
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    margin: 3px 0;
+    border: 1px dotted grey;
+    max-width: 300px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+54,4e4e4e+80,4e4e4e+80,383838+88,1b1b1b+100 */
+    background: #959595; /* Old browsers */
+    background: -moz-linear-gradient(top, #959595 0%, #0d0d0d 46%, #010101 50%, #0a0a0a 54%, #4e4e4e 80%, #4e4e4e 80%, #383838 88%, #1b1b1b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 54%,#4e4e4e 80%,#4e4e4e 80%,#383838 88%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #959595 0%,#0d0d0d 46%,#010101 50%,#0a0a0a 54%,#4e4e4e 80%,#4e4e4e 80%,#383838 88%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+}
