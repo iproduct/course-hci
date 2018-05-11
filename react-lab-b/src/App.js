@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Hello from './Hello';
-import HelloFunc from './HelloFunc';
 import TodoList from './TodoList';
 
 class App extends Component {

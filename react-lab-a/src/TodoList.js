@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TodoInput from './TodoInput';
 import './TodoList.css';
 
 export default class TodoList extends Component {
@@ -16,13 +17,24 @@ export default class TodoList extends Component {
         }
     }
 
+    addTodo = (text) => {
+        this.setState((prevState) => ({todos: [
+            ...prevState.todos, 
+            {
+                title: text,
+                status: 'active'
+            }] 
+        }))
+    }
+
     render() {
         return ([
-            <h2>Things TODO:</h2>,
-            <ul className="TodoList-list">
+            <h2 key="heading">Things TODO:</h2>,
+            <TodoInput key="input" onNewTodo={this.addTodo} />,
+            <ul key="list" className="TodoList-list">
             {
                 this.state.todos.map(
-                    todo => (<li>{todo.title} - {todo.status}</li>)
+                    todo => (<li  key={todo.title}>{todo.title} - {todo.status}</li>)
                 )
             }
             </ul>
